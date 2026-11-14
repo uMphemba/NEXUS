@@ -1,5 +1,5 @@
 {
-  "name": "impisitech-nexus", "displayName": "NEXUS", "description": "Understand and inspect code locally, directly in VS Code.", "version": "0.1.0", "publisher": "ImpisiTech", "license": "MIT", "icon": "media/icon.png", "engines": {"vscode": "^1.85.0"}, "categories": ["Other", "Education"], "keywords": ["code explanation", "static analysis", "learning"], "main": "./dist/extension.js",
+  "name": "impisitech-nexus", "displayName": "NEXUS by Impisi Tech", "description": "Understand and inspect code locally, directly in VS Code.", "version": "0.1.0", "publisher": "ImpisiTech", "license": "MIT", "icon": "media/icon.png", "engines": {"vscode": "^1.85.0"}, "categories": ["Other", "Education"], "keywords": ["code explanation", "static analysis", "learning"], "main": "./dist/extension.js",
   "activationEvents": ["onView:nexus.sidebar"],
   "contributes": {
     "viewsContainers": {"activitybar": [{"id": "nexus", "title": "NEXUS", "icon": "media/activity.svg"}]},
